@@ -1,0 +1,35 @@
+/* seletor{
+    propriedade: valor;
+    propriedade: valor;
+} 
+    
+.classe {
+    propriedade: valor;
+    propriedade: valor;
+}
+
+#id {
+    propriedade: valor;
+    propriedade: valor;
+}
+
+*/
+
+body{
+    font-family: Arial;
+    background-color: #6c6c6c;
+    margin: 0;
+    padding: 0;
+    color: #f9f9d9;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+}
+
+.primeiraClasse{
+    color: white;
+    font-weight: bold;
+    font-size: 1.125rem;
+}

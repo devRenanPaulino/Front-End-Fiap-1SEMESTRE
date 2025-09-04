@@ -1,0 +1,74 @@
+/* seletor{
+    propriedade: valor;
+    propriedade: valor;
+} 
+    
+.classe {
+    propriedade: valor;
+    propriedade: valor;
+}
+
+#id {
+    propriedade: valor;
+    propriedade: valor;
+}
+
+*/
+
+body{
+    font-family: Arial;
+    background-color: #6c6c6c;
+    margin: 0;
+    padding: 0;
+    color: #f9f9d9;
+}
+
+h1{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    aling-items: center;
+    grid-template-columns: repeat (1fr, 1fr);
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.item{
+    background: #1d1d1d;
+    padding: 20px 30px;
+    margin-top: 20px;
+    gap: 10px;
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 4px;
+    text-size: bold;
+    trasition: 0.3 ease-in;
+    border: 2px solid blue;
+}
+
+span{
+    color: yellow;
+    text-size: 20px;
+}
+
+h2{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+a:hover{
+    background: blue;
+    box-shadow: 5px 5px 5px rgb(0, 56, 240);
+}
+
