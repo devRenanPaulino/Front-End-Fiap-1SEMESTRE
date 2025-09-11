@@ -1,0 +1,42 @@
+body {
+    background: grey;
+}
+
+.nav-bar {
+    width: 749px;
+    height: 30px;
+    background: lightblue;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    line-height: 27px;
+    width: 149px;
+    float: left;
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+
+.nav-bar ul li:first-child {
+    border-left: 0;
+}
+
+.nav-bar ul li a {
+    border-bottom: 3px solid #fff;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul li a:hover{
+    border-bottom: 3px solid lightblue;
+    background: white;
+    color: lightblue;
+}
