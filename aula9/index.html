@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>
+    Trabalhando com Formulários
+  </h1>
+
+  <form name="frmCadastro" method="post">
+    <label for="txtNome">Nome: </label>
+    <input type="text" name="txtNome" id="txtNome" required>
+
+    <br>
+
+    <label for="txtEmail">Email</label>
+    <input type="email" name="txtEmail" id="txtEmail" required>
+
+    <br>
+
+    <label for="txtSenha">Senha</label>
+    <input type="password" name="pswSenha" id="txtSenha" required>
+
+    <br>
+
+    <label for="txtTelefone">Telefone</label>
+    <input type="tel" name="txtTelefone" id="txtTelefone">
+
+    <br>
+
+    <label for="txtCPF">CPF</label>
+    <input type="text" name="txtCPF" id="txtCPF" maxlength="14">
+
+    <br>
+
+    <label for="dataNascimento01">Data de Nascimento</label>
+    <input type="date" name="dataNascimento01" id="dataNascimento01" max="2025-10-16" min="2025-01-03">
+
+    <br>
+
+    <label for="dataNascimento02">Data de Nascimento</label>
+    <input type="datetime-local" name="dataNascimento02" id="dataNascimento02" max="2025-10-16" min="2025-01-03">
+
+    <br>
+
+    <label for="txtHorario">Horário</label>
+    <input type="time" name="txtHorario" id="txtHorario">
+
+    <br>
+
+    <label for="">Arquivo</label>
+    <input type="file" name="arquivo" id="arquivo" accept=".pdf, .doc, .jpeg, .docx, ,jpg" multiple>
+
+    <br>
+
+    <label for="txtCEP">CEP: </label>
+    <input type="text" name="txtCEP" id="txtCEP">
+
+    <br>
+
+    <label for="txtDependentes">Dependentes</label>
+    <input type="number" name="txtDependentes" id="txtDependentes" min="0" max="20" value="0" step="1">
+
+    <br>
+
+    <label>Gênero</label>
+    <input type="radio" name="rdoGenero" id="rdoMasc" value="M" checked><label for="rdoMasc">Masculino</label>
+    <input type="radio" name="rdoGenero" id="rdoFem" value="F"><label for="rdoFem">Feminino</label>
+    <input type="radio" name="rdoGenero" id="rdoOutro" value="F"><label for="rdoOutro">Outro</label>
+
+    <br>
+    <label for="chkTermos">Aceito os termos</label>
+    <input type="checkbox" name="chkTermos" id="chkTermos" value="S">
+
+    <br>
+
+    <label>Áreas de Interesse</label>
+    <input type="checkbox" name="chkTec" id="chkTec" value="S"><label for="chkTec">Tech</label>
+    <input type="checkbox" name="chkGames" id="chkGames" value="S"><label for="chkTec">Games</label>
+    <input type="checkbox" name="chkFilme" id="chkFilme" value="S"><label for="chkTec">Filme</label>
+
+    <br>
+
+    <label for="selEstado">Estado</label>
+    <select name="selEstado" id="selEstado"></select>
+    <optgroup>
+      <option>Suldeste</option>
+      <option value="">Selecione</option>
+      <option value="SP">São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="MG">Minas Gerais</option>
+    </optgroup>
+    <optgroup>
+      <option>Nordestes</option>
+      <option value="BA">Bahia</option>
+    </optgroup>
+
+    <br>
+    <label for="url"></label>
+    <input type="url" name="url" id="url">
+
+    <br>
+    <input type="image" src="">
+    <br>
+
+    <label for="txtCor">Cor</label>
+    <input type="color" name="txtCor" id="txtCor">
+
+    <br>
+
+    <label for="">Observações</label>
+    <textarea name="txtObs" id="txtObs" cols="30" rows="10" placeholder="Digite sua observação aqui..."></textarea>
+
+    <br>
+
+    <input type="submit">
+  </form>
+</body>
+
+</html>
