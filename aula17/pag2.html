@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #minhaDiv{
+            width: 90px;
+            height: 90px;
+            background-color: #ccc;
+            display: block;
+        }
+    </style>
+    <script>
+        function exibir(){
+            const div = document.getElementById('minhaDiv');
+            div.style.display = (div.style.display === 'block') ? 'none' : 'block'
+        }
+    </script>
+</head>
+<body>
+    <a href="" onmouseover="exibir()" onmouseout="exibir()">Link</a>
+    <div id="minhaDiv"></div>
+</body>
+</html>
